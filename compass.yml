@@ -1,0 +1,16 @@
+name: stats
+id: ari:cloud:compass:bd6d77f2-88ce-4b3f-889e-e2b05884fead:component/07dfc87a-f92f-4277-82d8-eecc69e3ec4a/95ffe2c3-7e7f-4f31-9c00-69c76adb5333
+description: Automatically generate summary GitHub statistics images for your profile using Actions, no server required
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/RadioBahrain/stats
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
