@@ -61,7 +61,7 @@ jobs:
     # Commits all changed files to the repository
     - name: Commit to the output branch of repo
       run: |
-        git config --global user.name "aldoyh[bot]"
+        git config --global user.name "aldoyh"
         git config --global user.email "aldoyh@gmail.com"
         git add .
         git commit -m 'temp commit' || echo
