@@ -48,6 +48,9 @@ jobs:
       run: |
         python3 generate_images.py
       env:
+        GITHUB_ACTOR: "aldoyh"
+        EXCLUDED_LANGS: ""
+        EXCLUDED: ""
         COUNT_STATS_FROM_FORKS: ${{ secrets.COUNT_STATS_FROM_FORKS }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GH_PAT }}
